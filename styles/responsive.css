@@ -1,0 +1,68 @@
+@media screen and (max-width: 575px) {
+
+    /* Header Part Start*/
+    header {
+        padding: 10px;
+    }
+
+    nav,
+    nav>ul {
+        flex-direction: column;
+    }
+
+    nav>ul li {
+        padding: 15px 0;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        padding: 50px 10px;
+    }
+
+    .banner .banner-content {
+        width: 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .banner .banner-content h1 {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .banner .banner-content p {
+        font-size: 14px;
+    }
+
+    /* header part End*/
+
+    /* Brand part start */
+    .brand_image {
+        padding: 0px 10px;
+    }
+
+    .brand_image_container {
+        flex-direction: column;
+        padding: 20px 0;
+        gap: 20px;
+    }
+
+    /* Brand part End */
+
+
+    /* Collection part start */
+
+    .collection {
+        padding: 0px 20px;
+    }
+
+    .collection-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+
+    /* Collection part End */
+
+}
