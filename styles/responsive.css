@@ -64,5 +64,262 @@
 
 
     /* Collection part End */
+    .featured-products {
+        padding: 20px;
+    }
 
+    .featured_product_container {
+        flex-direction: column-reverse;
+    }
+
+    .featured_image,
+    .featured_content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .featured_content h3 {
+        font-size: 2rem;
+        line-height: normal;
+    }
+
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    header {
+        padding: 10px;
+    }
+
+    nav,
+    nav>ul {
+        flex-direction: column;
+    }
+
+    nav>ul li {
+        padding: 15px 0;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        padding: 50px 10px;
+    }
+
+    .banner .banner-content {
+        width: 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .banner .banner-content h1 {
+        font-size: 2.5rem;
+        line-height: normal;
+    }
+
+    .banner .banner-content p {
+        font-size: 14px;
+    }
+
+    .brand_image {
+        padding: 0px 10px;
+    }
+
+    .brand_image_container {
+        flex-direction: column;
+        padding: 20px 0;
+        gap: 20px;
+    }
+
+    .collection {
+        padding: 0px 20px;
+    }
+
+    .collection-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .featured-products {
+        padding: 20px;
+    }
+
+    .featured_product_container {
+        flex-direction: column-reverse;
+    }
+
+    .featured_image,
+    .featured_content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .featured_content h3 {
+        font-size: 2.2rem;
+        line-height: normal;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    header {
+        padding: 50px;
+    }
+
+    nav h1 {
+        font-size: 1rem;
+    }
+
+    .banner .banner-content {
+        width: 80%;
+    }
+
+    .banner .banner_image img {
+        width: 100%;
+    }
+
+    .banner .banner-content h1 {
+        font-size: 1.5rem;
+        line-height: normal;
+    }
+
+    .banner .banner-content p {
+        font-size: 14px;
+    }
+
+    .brand_image_container {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .collection {
+        padding: 0px 20px;
+    }
+
+    .collection-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .featured_product_container {
+        gap: 35px;
+    }
+
+    .featured-products {
+        padding: 30px;
+    }
+    .featured_content h3 {
+        font-size: 1.5rem;
+        line-height: normal;
+    }
+    .featured_content p {
+        font-size: 0.75rem;
+        line-height: normal;
+        margin: 5px 0;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    header {
+        padding: 50px;
+    }
+
+    nav h1 {
+        font-size: 1rem;
+    }
+
+    .banner .banner-content {
+        width: 80%;
+    }
+
+    .banner .banner_image img {
+        width: 100%;
+    }
+
+    .banner .banner-content h1 {
+        font-size: 1.5rem;
+        line-height: normal;
+    }
+
+    .banner .banner-content p {
+        font-size: 14px;
+    }
+
+    .brand_image_container {
+        gap: 20px;
+    }
+    .collection {
+        padding: 0px 20px;
+    }
+
+    .collection-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .featured_product_container {
+        gap: 35px;
+    }
+
+    .featured-products {
+        padding: 30px;
+    }
+    .featured_content h3 {
+        font-size: 2rem;
+        line-height: normal;
+    }
+    .featured_content p {
+        font-size: 1rem;
+        line-height: 24px;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    header {
+        padding: 50px;
+    }
+
+    nav h1 {
+        font-size: 1rem;
+    }
+
+    .banner .banner-content {
+        width: 80%;
+    }
+
+    .banner .banner_image img {
+        width: 100%;
+    }
+
+    .banner .banner-content h1 {
+        font-size: 1.5rem;
+        line-height: normal;
+    }
+
+    .banner .banner-content p {
+        font-size: 14px;
+    }
+
+    .brand_image_container {
+        gap: 20px;
+    }
+    .collection {
+        padding: 0px 20px;
+    }
+
+    .collection-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .featured_product_container {
+        gap: 35px;
+    }
+
+    .featured-products {
+        padding: 30px;
+    }
+    .featured_content h3 {
+        font-size: 2rem;
+        line-height: normal;
+    }
+    .featured_content p {
+        font-size: 1rem;
+        line-height: 24px;
+        margin: 10px 0;
+    }
 }
